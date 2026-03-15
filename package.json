@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "concurrently \"tsc --watch\" \"live-server\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "live-server": "^1.2.2",
+    "concurrently": "^8.0.0"
+  }
+}
